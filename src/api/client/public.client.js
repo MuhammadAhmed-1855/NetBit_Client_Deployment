@@ -1,7 +1,7 @@
 import axios from "axios";
 import queryString from "query-string";
 
-const baseURL = "https://net-bit-server-deployment.vercel.app/api/v1/";
+const baseURL = "http://52.23.157.12/api/v1/";
 
 const publicClient = axios.create({
   baseURL,
